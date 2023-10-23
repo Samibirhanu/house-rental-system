@@ -1,0 +1,199 @@
+body {
+	font-family: 'poppins',sans-serif;
+}
+.navbar-nav a {
+	font-size: 18px;
+	font-family: 'poppins',sans-serif;
+    color:#fff;
+
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    
+    color: yellow;
+}
+
+
+.nav-link .navigation:hover{
+	color: yellow;
+}
+span a{
+	color: #000;
+}
+span a:hover{
+	text-decoration: none;
+	color: #444;
+}
+.nav-item{
+    color:#83818c;
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 0 7px;
+    z-index: 1;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.nav-item:not(.is-active):hover:before{
+    opacity: 1;
+    bottom: 0;
+}
+.nav-item:not(.is-active):hover{
+    color: #333;
+}
+
+
+
+/*  carousel      */
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.bg-1 {
+	background:rgba(0, 0, 0, 0.2) url(../images/slider1.jpg);
+    background-blend-mode: darken;
+}
+.bg-2 {
+	background:rgba(0, 0, 0, 0.2)url(../images/slider2.jpg);
+    background-blend-mode: darken;
+}
+.bg-3 {
+	background:rgba(0, 0, 0, 0.2) url(../images/slider3.jpg);
+    background-blend-mode: darken;
+}
+.bg-1, .bg-2, .bg-3 {
+	
+	background-size: cover;
+}
+.carousel-caption {
+	top: 270px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 65px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	text-decoration: none;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.carousel-indicators {
+	bottom: 65px;
+}
+.carousel-indicators button {
+	width: 100px !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
+		margin: auto;
+	}
+	
+	
+	.carousel-caption {
+		bottom: 350px;
+	}
+	.carousel-caption h5 {
+		font-size: 65px;
+	}
+	.carousel-caption p {
+		font-size: 18px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		margin-top: 10px;
+	}
+	
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 25px;
+	}
+	.carousel-caption p {
+		font-size: 12px;
+		width: 100%;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	
+}
+
+
+/* hover effect */
+a img {
+    -webkit-filter: brightness(100%);
+}
+
+a img:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+	
+}
+
+.pics img:hover{
+	transform: scale(1.01);
+	-o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* hover effect */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer  */
+footer {
+	background-color: #333;
+}
+.footernav a {
+	font-family: 'poppins',sans-serif;
+    color:#fff;
+}
+
+
+.footernav a:hover{
+	color:rgba(255, 197, 5, 0.993);
+	text-decoration: none;
+}
+
+/* Footer */
+
+/* book form */
+.card.book {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+	font-family: 'poppins',sans-serif;
+}
+
+/* book form */
